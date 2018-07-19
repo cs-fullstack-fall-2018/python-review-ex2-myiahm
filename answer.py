@@ -3,9 +3,9 @@ randomNumber = random.randint(1,10)
 # print (randomNumber)
 while True:
  # print(userInput)
-    userInput = input('enter num')
+    userInput = input('Enter Number: ')
     if int(userInput) == randomNumber:
-        print("Right")
+        print("Correct!!!")
         break
     else:
-        print("wrong")
+        print("Sorry Charlie!!")
